@@ -7,4 +7,4 @@ FROM java:8
 VOLUME /tmp
 ADD mall-0.0.1-SNAPSHOT.jar springBoot_qilin_mall.jar
 EXPOSE 8080
-ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/springBoot_qilin_mall.jar"]
+ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/data/mall-0.0.1-SNAPSHOT.jar"]
