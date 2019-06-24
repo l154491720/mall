@@ -2,9 +2,8 @@ package com.qilin.mall.mbg.mapper;
 
 import com.qilin.mall.mbg.model.PmsBrand;
 import com.qilin.mall.mbg.model.PmsBrandExample;
-import org.apache.ibatis.annotations.Param;
-
 import java.util.List;
+import org.apache.ibatis.annotations.Param;
 
 public interface PmsBrandMapper {
 
